@@ -1,0 +1,12 @@
+{
+    "type": "postgres",
+    "entities": [
+        "dist/**/*.entity{.ts,.js}"
+    ],
+    "migrations": [
+        "migration/*{.ts,.js}"
+    ],
+    "cli": {
+        "migrationsDir": "migration"
+    }
+}
